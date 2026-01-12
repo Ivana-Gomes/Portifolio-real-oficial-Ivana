@@ -95,8 +95,20 @@ i{
     font-size: .75rem;
     text-transform: uppercase;
 }
+
+.headr__nav {
+    display: none;
+}
+
+.menu--principal {
+    gap: 1rem; 
+}
+
 @media (min-width: 768px) {
     .menu--mobile {
         display: none;
+    }
+    .header__nav {
+        display: flex;
     }
 }
